@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=l, initial-scale=1.0">
+    <title>Pament through COD</title>
+    <style>
+        h2{
+            color: rgb(59, 59, 59);
+            text-align: center;
+        }
+    </style>
+</head>
+<body background-color:blue;>
+   <h2>Your Item's payment will Be At The Time Of Delivery</h2> <br>
+   <h2>Thanku</h2>
+</body>
+</html>
