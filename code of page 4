@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whole_Mart payment Method </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <h3>PAYMENT</h3>
+  </nav><br>
+  <div class="container">
+   <b> <a href="upi.html"> <input type="radio" name="payment"> UPI</a>
+  </div></b>
+ <b><a href="card.html"> <input type="radio" name="payment">CARD
+  </a><br></b>
+  <div>
+    <b><a href="cod.html"><input type="radio" name="payment">COD</a>
+  </div><br></b>
+</body>
+</html>
