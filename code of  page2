@@ -1,0 +1,76 @@
+ <!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .container{
+        height: 82vh;
+        background-color: darkslategray;
+      }
+        .black-text{
+            color:white;
+            background-color: black;
+         }
+     .item{
+      color: #ffffff;
+  font-size: 33px;
+  padding-top: 58px;
+  padding-left: 350px;
+     }
+h2{
+  font-size: xxx-large;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    padding-left: 592px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+button{
+  display: inline-block;
+  margin-left: 680px;
+    margin-top: 45px;
+    height: 46px;
+    width: 147px;
+    font-size: 29px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+button:hover{
+    background: rgba(128, 0, 0, 0.747);
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+    height: 3vh;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+</style> 
+</head>
+<body>
+
+    <h2 class ="black-text"> Confirmation Page </h2>
+    <div class="container">
+    <div class="item">Click On The Confirm Button To Continue Your Shopping</div>
+    <a href ="index.html"><button class="black-text" type="submit"> cofirm </button></a>
+  </div>
+    <footer>&copy;Copyright 2020</footer>
+    
+</body>
+</html>
+
+
