@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment Through Card </title>
+    <style>
+        .btn {
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 7px 21px;
+            font-size: large;
+            background-color: #ffa31a;
+            margin: 10px;
+        }
+
+        
+
+        button:hover {
+            background-color: rgb(240, 189, 95);
+            border: 0px;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .box {
+            background-color: rgb(174, 238, 247);
+            border: 4px solid black;
+            border-radius: 4px;
+            margin-top: 12%;
+            margin-left: 37%;
+            margin-right: 37%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="item">
+            <h2>PAYMENT THROUGH CARD</h2>
+        </div>
+        <div class="container">
+            <div>
+                <input type="text" placeholder="Enter Your Card No.">
+            </div><br>
+            <div><input type="name" placeholder="Enter card holder  Name"> </div><br>
+            <div> <input type="name" placeholder="Enter your CVV"></div><br>
+            <div><input type="name" placeholder="Enter Your Mobile No."></div><br>
+            <button class="btn Send OTP">Send OTP</button>
+            <br>
+            <div> <button class="btn Confirm Transaction">Confirm Transaction</button></div>
+        </div>
+    </div>
+</body>
+
+</html>
